@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+    background-image:linear-gradient(45deg,#757170,#eae1df);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+html {
+    height: 100%;
+}
+
+.title{
+    font-family: MenoBanner;
+  font-size: 35px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #917c78;
+  margin-top: -50px;
+}
+
+.banner{
+    width: 276.4px;
+  height: 55.5px;
+  margin-bottom: 50px;
+ }
+
+ .banner img{
+     margin-top: 0px;
+ }
+
+#navigation{
+    width: 52px;
+    height: 24px;
+    font-family: MenoBanner;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c78283;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: left; 
+    justify-content: space-around;
+}
+
+#navBar {
+    display: flex;
+  flex-direction: row;
+  margin: 0px 5% 20px;
+}
+
+#main {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* grid-template-areas: "flowersStars flowersStars caseStudy caseStudy"; */
+    grid-template-areas: "flowersStars caseStudy";
+    height: 100%;
+    
+}
+.flowersStars {
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+    margin: 0px 0px 0px -55px;
+    grid-area: flowersStars;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    grid-area: caseStudy;
+    justify-self: flex-end;
+    width: 100%;
+    margin-right: 125px;
+    margin-top: 45px;
+}
+
+.sxill {
+    display: flex;
+    grid-template-rows: 75% 25%;
+    grid-template-areas: "nameR circleR";
+    justify-self: end;
+}
+
+.name {
+  height: 43px;
+  font-family: MenoBanner;
+  font-size: 35px;
+  line-height: 1.23;
+  text-align: center;
+  color: #917c78;
+  width: 100%;
+  margin: 55px 80px 0px 0px
+}
+
+.wireFrames{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.userFlow {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.userResearch {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
