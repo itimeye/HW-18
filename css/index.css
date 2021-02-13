@@ -1,6 +1,6 @@
 body{
     height: 100%;
-    background-image:linear-gradient(45deg,#757170,#eae1df);
+    background-image:linear-gradient(15deg,#450920,#eae1df);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -98,7 +98,7 @@ html {
     justify-self: end;
 }
 
-.name {
+.nameR {
   height: 43px;
   font-family: MenoBanner;
   font-size: 35px;
@@ -106,8 +106,32 @@ html {
   text-align: center;
   color: #917c78;
   width: 100%;
-  margin: 55px 80px 0px 0px
+  margin: 55px 80px 0px 0px;
+  display: none;
 }
+
+.nameW {
+    height: 43px;
+    font-family: MenoBanner;
+    font-size: 35px;
+    line-height: 1.23;
+    text-align: center;
+    color: #917c78;
+    width: 100%;
+    margin: 55px 80px 0px 0px;
+    display: none;
+  }
+  .nameN {
+    height: 43px;
+    font-family: MenoBanner;
+    font-size: 35px;
+    line-height: 1.23;
+    text-align: center;
+    color: #917c78;
+    width: 100%;
+    margin: 55px 80px 0px 0px;
+    display: none;
+  }
 
 .recipeRoulette{
     display: grid;
